@@ -1,0 +1,22 @@
+image: registry.gitlab.com/pages/hugo:0.26
+
+test:
+  script:
+  - apk --update add git nodejs nodejs-npm
+  - cd themes && git clone https://github.com/wet-boew/wet-boew-hugo.git wxt
+  - cd wxt && npm install -g bower && bower install --allow-root && cd ../.. && bower install --allow-root
+  - hugo
+  except:
+  - master
+
+pages:
+  script:
+  - apk --update add git nodejs nodejs-npm
+  - cd themes && git clone https://github.com/wet-boew/wet-boew-hugo.git wxt
+  - cd wxt && npm install -g bower && bower install --allow-root && cd ../.. && bower install --allow-root
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

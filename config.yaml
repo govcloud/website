@@ -1,0 +1,43 @@
+baseUrl: "http://govcloud.github.io"
+theme: wxt
+ContentDir: "content"
+LayoutDir: "layouts"
+PublishDir: "public"
+BuildDrafts: true
+LanguageCode: "en-us"
+Title: "Dev Ops"
+PluralizeListTitles: False
+menu:
+  main:
+    - Name: "Documentation"
+      Weight: -100
+      URL: "/doc/charts/"
+    - Name: "Roadmap"
+      Weight: -100
+      URL: "/roadmap/"
+    - Name: "Team"
+      Weight: -95
+      Identifier: "team"
+      URL: "/team/"
+    - Name: "Help"
+      Weight: -95
+      Identifier: "help"
+      URL: "/help/"
+Params:
+  Author: "Dev Ops team @ Statistics Canada"
+  Banner: "Providing information on work being done by Statistics Canada"
+  DateForm: "2006-01-02"
+  disqusShortname: "statscan"
+  GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
+  Github: "govcloud/govcloud.github.io"
+  Search: "govcloud.ca"
+  ShowRelatedPost: True
+  Slogan: "Portfolio site for Dev Ops @ Statistics Canada"
+  SyntaxHighlightTheme: "monokai.min.css"
+  Theme: "theme-wet-boew"
+  Twitter: "statcan_eng"
+Indexes:
+  tag: "tags"
+permalinks:
+  post: /post/:year/:month/:day/:title/
+MetadataFormat: "yaml"

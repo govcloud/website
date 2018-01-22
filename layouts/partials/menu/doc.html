@@ -1,0 +1,35 @@
+<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9">
+    <h2>Documentation for Open Data</h2>
+    <ul class="list-group menu list-unstyled">
+        <li>
+            <h3 class="wb-navcurr">Documentation</h3>
+            <ul class="list-group menu list-unstyled">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.doc }}
+                    {{ $name := lower .Name }}
+                    {{ if .HasChildren }}
+                    <li{{if $currentPage.IsMenuCurrent "doc" . }} class="docmenu active"{{else}} class="docmenu"{{end}}>
+                        <a href="#" id="btn-{{$name}}" data-toggle="collapse" data-target="#submenu-{{$name}}" aria-expanded="false" class="toggle-custom list-group-item">{{ .Name }}<span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></a>
+                        <ul id="submenu-{{$name}}" role="menu" aria-labelledby="btn-1" class="collapse list-group menu list-unstyled">
+                            {{ range .Children }}
+                            {{if $currentPage.IsMenuCurrent "doc" . }}
+                                <li class="current_page active">
+                                    <a href="{{.URL}}" class="list-group-item active">{{ .Name }}</a>
+                                </li>
+                                {{else}}
+                                <li>
+                                    <a href="{{.URL}}" class="list-group-item">{{ .Name }}</a>
+                                </li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    {{else}}
+                    <li>
+                        <a href="{{.URL}}" class="list-group-item">{{ .Name }}</a>
+                    {{end}}
+                    </li>
+              {{end}}
+            </ul>
+        </li>
+    </ul>
+</nav>
