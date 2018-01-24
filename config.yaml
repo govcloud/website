@@ -1,11 +1,12 @@
-baseUrl: "http://govcloud.github.io"
+baseUrl: "https://govcloud.github.io"
 theme: wxt
 ContentDir: "content"
 LayoutDir: "layouts"
 PublishDir: "public"
 BuildDrafts: true
+RelativeURLs: true
 LanguageCode: "en-us"
-Title: "Dev Ops"
+Title: "Cloud Operations"
 PluralizeListTitles: False
 menu:
   main:
@@ -24,17 +25,17 @@ menu:
       Identifier: "help"
       URL: "/help/"
 Params:
-  Author: "Dev Ops team @ Statistics Canada"
-  Banner: "Providing information on work being done by Statistics Canada"
+  Author: "Statistics Canada"
+  Banner: "Providing information on work being done by the Government of Canada"
   DateForm: "2006-01-02"
-  disqusShortname: "statscan"
+  disqusShortname: "goc"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
   Github: "govcloud/govcloud.github.io"
   Search: "govcloud.ca"
   ShowRelatedPost: True
-  Slogan: "Portfolio site for Dev Ops @ Statistics Canada"
+  Slogan: "Cloud Operations @ Statistics Canada"
   SyntaxHighlightTheme: "monokai.min.css"
-  Theme: "theme-wet-boew"
+  Theme: "theme-gcweb"
   Twitter: "statcan_eng"
 Indexes:
   tag: "tags"

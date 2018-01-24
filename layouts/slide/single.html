@@ -20,9 +20,9 @@
         {{ end }}
     </title>
     {{ partial "resources/wxt.html" . }}
-	<link rel="stylesheet" href="{{"lib/reveal.js/css/reveal.css"|relURL}}">
-	<link rel="stylesheet" href="{{"lib/reveal.js/css/theme/black.css"|relURL}}" id="theme">
-	<link rel="stylesheet" href="{{"lib/reveal.js/lib/css/zenburn.css"|relURL}}">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}{{"/lib/reveal.js/css/reveal.css"}}">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}{{"/lib/reveal.js/css/theme/black.css"}}" id="theme">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}{{"/lib/reveal.js/lib/css/zenburn.css"}}">
     {{ partial "resources/custom.html" . }}
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -37,8 +37,8 @@
 	</section>
 	</div>
 	</div>
-<script src="{{"lib/reveal.js/lib/js/head.min.js"|relURL}}"></script>
-	<script src="{{"lib/reveal.js/js/reveal.js"|relURL}}"></script>
+<script src="{{ .Site.BaseURL }}{{"/lib/reveal.js/lib/js/head.min.js"}}"></script>
+	<script src="{{ .Site.BaseURL }}{{"/lib/reveal.js/js/reveal.js"}}"></script>
 	<script>
 		Reveal.initialize({
 		      	embedded : true,
@@ -49,12 +49,12 @@
 		        // theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 		        // Optional libraries used to extend on reveal.js
 		        dependencies: [
-		          { src: '{{"lib/reveal.js/lib/js/classList.js"|relURL}}"', condition: function() { return !document.body.classList; } },
-		          { src: '{{"lib/reveal.js/plugin/markdown/marked.js"|relURL}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		          { src: '{{"lib/reveal.js/plugin/markdown/markdown.js"|relURL}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		          { src: '{{"lib/reveal.js/plugin/highlight/highlight.js"|relURL}}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-		          { src: '{{"lib/reveal.js/plugin/zoom-js/zoom.js"|relURL}}', async: true, condition: function() { return !!document.body.classList; } },
-		          { src: '{{"lib/reveal.js/plugin/notes/notes.js"|relURL}}', async: true, condition: function() { return !!document.body.classList; } }
+		          { src: '{{ .Site.BaseURL }}{{"/lib/reveal.js/lib/js/classList.js"}}"', condition: function() { return !document.body.classList; } },
+		          { src: '{{ .Site.BaseURL }}{{"/lib/reveal.js/plugin/markdown/marked.js"}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		          { src: '{{ .Site.BaseURL }}{{"/lib/reveal.js/plugin/markdown/markdown.js"}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		          { src: '{{ .Site.BaseURL }}{{"/lib/reveal.js/plugin/highlight/highlight.js"}}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		          { src: '{{ .Site.BaseURL }}{{"/lib/reveal.js/plugin/zoom-js/zoom.js"}}', async: true, condition: function() { return !!document.body.classList; } },
+		          { src: '{{ .Site.BaseURL }}{{"/lib/reveal.js/plugin/notes/notes.js"}}', async: true, condition: function() { return !!document.body.classList; } }
 		        ]
 		      });
 	</script>
