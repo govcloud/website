@@ -6,34 +6,27 @@ PublishDir: "public"
 BuildDrafts: true
 RelativeURLs: true
 LanguageCode: "en-us"
-Title: "Cloud Operations"
+Title: "GovCloud"
 PluralizeListTitles: False
 menu:
   main:
-    - Name: "Documentation"
+    - Name: "GitHub"
       Weight: -100
-      URL: "/doc/charts/"
-    - Name: "Roadmap"
-      Weight: -100
-      URL: "/roadmap/"
-    - Name: "Team"
+      URL: "http://github.com/govcloud"
+    - Name: "Registration"
       Weight: -95
-      Identifier: "team"
-      URL: "/team/"
-    - Name: "Help"
-      Weight: -95
-      Identifier: "help"
-      URL: "/help/"
+      Identifier: "register"
+      URL: "/register/"
 Params:
-  Author: "Statistics Canada"
-  Banner: "Providing information on work being done by the Government of Canada"
+  Author: "Statistics Canada: Cloud Ops Team"
+  Banner: "Working group for Containers and Kubernetes"
   DateForm: "2006-01-02"
   disqusShortname: "goc"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
   Github: "govcloud/govcloud.github.io"
   Search: "govcloud.ca"
   ShowRelatedPost: True
-  Slogan: "Cloud Operations @ Statistics Canada"
+  Slogan: "Helping to build a government that is cloud native"
   SyntaxHighlightTheme: "monokai.min.css"
   Theme: "theme-gcweb"
   Twitter: "statcan_eng"
