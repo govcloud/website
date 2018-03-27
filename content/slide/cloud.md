@@ -13,7 +13,7 @@ type = "slide"
 
 <!-- .slide: id="ops" data-transition="concave" -->
 
-# Cloud Ops
+# Cloud Native
 
 [govcloud/charts](http://github.com/govcloud/charts) <i class="fa fa-github"></i></li>
 
@@ -47,6 +47,7 @@ I thought just before everything else I would mention why I feel a group like th
 * Change government culture
 * Skunkworks
 * Go afficionados?
+* Worried about how we get sold things in Government: Azure Service Fabric, Pivotal, and OpenShift, there are standards we should use them
 
 We are going to try to keep the planning items discussion capped at an hour and a bit in order to ensure enough time to demo some of the initial work being done at Statistics Canada.
 
@@ -71,6 +72,10 @@ Note:
 * We should ignore standard IAAS custom cloud type functionality
 * We need to facilitate hybrid cloud (AWS, Azure, OpenStack, On Premise, etc)
 * We need to follow Canada's Open First Whitepaper (this prevents alot of implicit issues)
+* We use the CNCF code of conduct are we fine with that for now?
+* Use govcloud repo and hugo static site for blogs
+* Will be hosting cloud native youtube videos shortly
+* Host our own containers / container registry?
 
 Cloud native computing uses an open source software stack to be:
 
@@ -99,6 +104,7 @@ This part was purposely left open to gather input for relevant things we may hav
 * Vendor participation
 * Evangelism
 * Fostering GoC community
+* Social events after meetings
 
 ---
 
@@ -174,10 +180,10 @@ ___
 
 # Docker
 
-* Docker for Windows
-* Docker for Mac
-* SAS
+* Docker for Windows / Mac
+* Docker Intricacies
 * Composer w/PHP
+* Data Science (SAS, Kylo, NiFi)
 
 Note:
 
@@ -675,14 +681,18 @@ ___
 
 <!-- .slide: id="k8s-tips" data-transition="concave" -->
 
-# Tips
+# Helpful Tips
 
-* Please interact with the community
+* Interact with the community
 * kubectl autocomplete
-* Watch the Illustrated Guide to Kubernetes
+* Illustrated Guide to Kubernetes
 * Container Fundamentals Refresher Video
 
 Note:
+
+Illustrated Guide to K8S: https://www.youtube.com/watch?v=4ht22ReBjno
+
+Containers: https://www.youtube.com/watch?v=EnJ7qX9fkcU
 
 ---
 
@@ -738,6 +748,10 @@ Actually run through some Helm examples:
 * Kylo
 * NiFi
 * OpenFaaS
+
+Helm + VSTS:
+
+http://jessicadeen.com/tech/microsoft/how-to-deploy-to-kubernetes-using-helm-and-vsts/
 
 ___
 
