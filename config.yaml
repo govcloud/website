@@ -12,11 +12,20 @@ menu:
   main:
     - Name: "GitHub"
       Weight: -100
+      Pre: <i class='fa fa-github'></i>
       URL: "http://github.com/govcloud"
-    - Name: "Registration"
+    - Name: "Youtube"
+      Weight: -100
+      Pre: <i class='fa fa-youtube'></i>
+      URL: "https://www.youtube.com/channel/UC00nN9hhb4q6IChP8yEIzGA/playlists"
+    - Name: "Meetups"
       Weight: -95
-      Identifier: "register"
-      URL: "/register/"
+      Identifier: "meetups"
+      URL: "/sitemap/meetup/"
+    - Name: "Feedback"
+      Weight: -90
+      Identifier: "feedback"
+      URL: "/feedback/"
 Params:
   Author: "Statistics Canada: Cloud Ops Team"
   Banner: "Working group for Containers and Kubernetes"

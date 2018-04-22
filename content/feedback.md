@@ -1,27 +1,32 @@
 +++
 draft = false
-title = "Registration Form"
-description="Registration form for the working group"
+title = "Feedback Form"
+description="Feedback form for the working group"
 language = "en"
 tags = [
-    "registration"
+    "feedback"
 ]
 date = "2017-01-01T13:10:52-05:00"
 type = "single"
 +++
 
 <div class="wb-frmvld wb-fdbck nojs-hide mrgn-bttm-lg">
-	<p>In order to register for the working group please fill out the form below.</p>
+	<p>In order to help the working group please offer some:</p>
+	<ul class="mrgn-bttm-lg">
+		<li>Session(s) proposals</li>
+		<li>Constructive feedback</li>
+		<li>Topics you would like to see</li>
+	</ul>
 	<form action="https://formspree.io/william.hearn@canada.ca" method="post">
 		<input type="hidden" name="language" value="en">
 		<div id="type">
 			<div class="form-group">
 				<label for="fbreg" class="required">
-					<span class="field-name">Type of registration</span>
+					<span class="field-name">Classification</span>
 					<strong class="required">(required)</strong>
 				</label>
 				<select class="form-control" name="fbreg" id="fbreg" required="required">
-					<option value="">Select a reason</option>
+					<option value="">Select a classification</option>
 					<option value="subject1">Governent Employee</option>
 					<option value="subject2">Private Sector</option>
 					<option value="other">Other</option>
