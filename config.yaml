@@ -18,6 +18,10 @@ menu:
       Weight: -100
       Pre: <i class='fa fa-youtube'></i>
       URL: "https://www.youtube.com/channel/UC00nN9hhb4q6IChP8yEIzGA/playlists"
+    - Name: "Slides"
+      Weight: -97
+      Identifier: "slides"
+      URL: "/sitemap/slides/"
     - Name: "Meetups"
       Weight: -95
       Identifier: "meetups"
