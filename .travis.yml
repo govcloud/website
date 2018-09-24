@@ -21,6 +21,6 @@ install:
 
 script:
   - cd themes
-  - git clone https://github.com/MunifTanjim/minimo.git minimo
-  - cd ..
+  - git clone https://github.com/wet-boew/wet-boew-hugo.git wxt
+  - cd wxt && bower install && cd ../.. && bower install
   - ./deploy.sh "${COMMIT_MSG}" > /dev/null 2>&1

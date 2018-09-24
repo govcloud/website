@@ -12,5 +12,5 @@ Please consult the WxT theme [README.md][readme] file for further instructions.
 <!-- Links Referenced -->
 
 [readme]:       https://raw.githubusercontent.com/wet-boew/wet-boew-hugo/master/README.md
-[ci]:           https://travis-ci.org/devops/website
-[ci-badge]:     https://travis-ci.org/devops/website.svg?branch=master
+[ci]:           https://travis-ci.org/govcloud/website
+[ci-badge]:     https://travis-ci.org/govcloud/website.svg?branch=master
