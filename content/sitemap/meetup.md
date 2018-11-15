@@ -21,8 +21,8 @@ We ask that you register for our working group and that you at least provide you
 <address class="mrgn-bttm-lg mrgn-tp-lg">
 <p>Meetups are usually held once a month at:</p>
 <p class="h5">Canadian Digital Service</p>
-<p class="h5">90 Elgin Street <span>Ottawa</span><span>, ON</span></p>
-<p class="h5">Room 2064 on the second floor of 90 elgin</p>
+<p class="h5">219 Laurier <span>Ottawa</span><span>, ON</span></p>
+<p class="h5">Room 14003 on the 14th floor</p>
 </address>
 
 > **Notice**: This meetup is for `Government of Canada` employees only. We intend to invite outside partners for special events, i.e to give presentations etc. If you would like to present at the meetup, please contact the organizers.
