@@ -20,7 +20,7 @@ Slidedecks for presentations given during the recurring monthly Cloud Native @ G
   <li><a href="{{< ref "slide/06-26-18.md" >}}">06-26-18</a></li>
   <li><a href="{{< ref "slide/08-26-18.md" >}}">08-26-18</a></li>
   <li><a href="{{< ref "slide/09-28-18.md" >}}">09-28-18</a></li>
-  <li><a href="{{< ref "slide/10-12-18.md" >}}">10-12-18</a></li>
+  <li><a href="/docs/aqua.pdf">10-12-18</a></li>
   <li><a href="/docs/mongodb.pptx">11-15-18</a></li>
 </ul>
 
