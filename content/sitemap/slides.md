@@ -14,18 +14,19 @@ type = "slides"
 Slidedecks for presentations given during the recurring monthly Cloud Native @ Government of Canada meetup:
 
 <ul>
-  <li><a href="{{< ref "slide/03-22-18.md" >}}">03-22-18</a></li>
-  <li><a href="{{< ref "slide/04-24-18.md" >}}">04-24-18</a></li>
-  <li><a href="{{< ref "slide/05-29-18.md" >}}">05-29-18</a></li>
-  <li><a href="{{< ref "slide/06-26-18.md" >}}">06-26-18</a></li>
-  <li><a href="{{< ref "slide/08-26-18.md" >}}">08-26-18</a></li>
-  <li><a href="{{< ref "slide/09-28-18.md" >}}">09-28-18</a></li>
-  <li><a href="/docs/aqua.pdf">10-12-18</a></li>
-  <li><a href="/docs/mongodb.pptx">11-15-18</a></li>
+  <li><a href="{{< relref "/slide/03-22-18.md" >}}">2018-03-22</a></li>
+  <li><a href="{{< relref "/slide/04-24-18.md" >}}">2018-04-24</a></li>
+  <li><a href="{{< relref "/slide/05-29-18.md" >}}">2018-05-29</a></li>
+  <li><a href="{{< relref "/slide/06-26-18.md" >}}">2018-06-26</a></li>
+  <li><a href="{{< relref "/slide/08-26-18.md" >}}">2018-08-26</a></li>
+  <li><a href="{{< relref "/slide/09-28-18.md" >}}">2018-09-28</a></li>
+  <li><a href="/docs/aqua.pdf">2018-10-12</a></li>
+  <li><a href="/docs/mongodb.pptx">2018-11-15</a></li>
 </ul>
 
 Special Presentations:
 
 <ul>
-  <li><a href="{{< ref "slide/09-28-18.md" >}}">Open First Day (2018)</a></li>
+  <li><a href="{{< relref "/slide/09-28-18.md" >}}">Open First Day</a></li>
+  <li><a href="https://www.youtube.com/watch?v=foDJfHoW1HQ&list=PL00ZCNsWlHf4bf1Zw0NqSwcWko-vlb_Rz&index=3">Containers and Governance</a></li>
 </ul>

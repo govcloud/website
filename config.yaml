@@ -6,7 +6,7 @@ PublishDir: "public"
 BuildDrafts: true
 RelativeURLs: true
 LanguageCode: "en-us"
-Title: "GovCloud"
+Title: "GoC Cloud Native"
 PluralizeListTitles: False
 menu:
   main:
@@ -31,10 +31,10 @@ menu:
       Identifier: "feedback"
       URL: "/feedback/"
 Params:
-  Author: "Statistics Canada: Cloud Ops Team"
+  Author: "GoC Cloud Native"
   Banner: "Working group for Containers and Kubernetes"
   DateForm: "2006-01-02"
-  disqusShortname: "goc"
+  disqusShortname: "gc"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
   Github: "govcloud/govcloud.github.io"
   Search: "govcloud.ca"
