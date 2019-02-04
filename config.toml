@@ -27,8 +27,8 @@ MetadataFormat = "yaml"
   [[menu.main]]
   Name = "Slides"
   Weight = -97.0
-  Identifier = "slide"
-  URL = "/slide/"
+  Identifier = "slides"
+  URL = "/slides/"
 
   [[menu.main]]
   Name = "Meetups"
