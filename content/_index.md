@@ -1,14 +1,12 @@
 +++
-draft = false
-title = "Homepage"
-description="Homepage."
-language = "en"
-tags = [
-    "index",
-    "roadmap"
-]
 date = "2018-03-22T13:10:52-05:00"
+description = "Homepage."
+draft = false
+language = "en"
+tags = ["index", "roadmap"]
+title = "Homepage"
 type = "single"
+
 +++
 
 <div class="row">

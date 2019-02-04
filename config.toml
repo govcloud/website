@@ -1,0 +1,63 @@
+baseUrl = "https://govcloud.github.io"
+theme = "wxt"
+ContentDir = "content"
+LayoutDir = "layouts"
+PublishDir = "public"
+BuildDrafts = true
+RelativeURLs = true
+LanguageCode = "en-us"
+Title = "GoC Cloud Native"
+PluralizeListTitles = false
+MetadataFormat = "yaml"
+
+[menu]
+
+  [[menu.main]]
+  Name = "Youtube"
+  Weight = -100.0
+  Pre = "<i class='fa fa-youtube'></i>"
+  URL = "https://www.youtube.com/channel/UC00nN9hhb4q6IChP8yEIzGA/playlists"
+
+  [[menu.main]]
+  Name = "GitHub"
+  Weight = -98.0
+  Pre = "<i class='fa fa-github'></i>"
+  URL = "http://github.com/govcloud"
+
+  [[menu.main]]
+  Name = "Slides"
+  Weight = -97.0
+  Identifier = "slide"
+  URL = "/slide/"
+
+  [[menu.main]]
+  Name = "Meetups"
+  Weight = -95.0
+  Identifier = "meetups"
+  URL = "/meetups/"
+
+  [[menu.main]]
+  Name = "Feedback"
+  Weight = -90.0
+  Identifier = "feedback"
+  URL = "/feedback/"
+
+[Params]
+Author = "GoC Cloud Native"
+Banner = "Working group for Containers and Kubernetes"
+DateForm = "2006-01-02"
+disqusShortname = "gc"
+GoogleAnalyticsUserID = "XXXX-XXXX-XXXX"
+Github = "govcloud/govcloud.github.io"
+Search = "govcloud.ca"
+ShowRelatedPost = true
+Slogan = "Helping to build a government that is cloud native"
+SyntaxHighlightTheme = "monokai.min.css"
+Theme = "theme-gcweb"
+Twitter = "statcan_eng"
+
+[Indexes]
+tag = "tags"
+
+[permalinks]
+post = "/post/:year/:month/:day/:title/"
